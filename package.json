@@ -18,7 +18,7 @@
   "module": "./dist/maplibre-preload.module.js",
   "exports": "./dist/maplibre-preload.modern.js",
   "scripts": {
-    "prepare": "pnpm run build",
+    "prepare": "npm run build",
     "build": "microbundle --external none",
     "dev": "microbundle watch --external none"
   },
